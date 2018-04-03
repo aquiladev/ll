@@ -1,0 +1,307 @@
+body {
+  background: #13161a;
+  background-color: #13161a;
+}
+
+.slides .footer {
+  display: none;
+}
+
+.main .frame {
+  position: absolute;
+  text-align: left;
+  font-size: 22px;
+}
+
+.main .frame img {
+  margin: 0;
+  background: transparent;
+  border: none;
+  box-shadow: 0 0;
+}
+
+.main .xtop {
+  height: 60px;
+}
+
+.main .xcenter {
+  height: 200px;
+}
+
+.main .xbottom {
+  height: 400px;
+}
+
+.main .block-container {
+  width: 32%;
+  display: inline-block;
+  text-align: -webkit-center;
+  position: relative;
+}
+
+.main .block {
+  height: 160px;
+  width: 160px;
+  background-size: 160px 160px;
+}
+
+.main .block.small {
+  height: 80px;
+  width: 80px;
+  background-size: 80px 80px;
+}
+
+.main .midi {
+  height: 160px;
+  width: 160px;
+  background-size: 160px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main .popup {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.main .order {
+  height: 94px;
+  width: 100%;
+  background-image: url(../images/order00.png);
+  background-size: 100% 94px;
+  position: absolute;
+  top: -50px;
+}
+
+.main .goods {
+  height: 160px;
+  width: 100%;
+  background-image: url(../images/goods02.png);
+  background-size: 100% 160px;
+  position: absolute;
+  top: 46px;
+}
+
+.main .invoice {
+  height: 160px;
+  width: 100%;
+  background-image: url(../images/invoice00.png);
+  background-size: 100% 160px;
+  position: absolute;
+  top: 208px;
+}
+
+.main .payment {
+  height: 94px;
+  width: 100%;
+  background-image: url(../images/payment00.png);
+  background-size: 100% 94px;
+  position: absolute;
+  top: 374px;
+}
+
+.main .excl {
+  height: 60px;
+  width: 60px;
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/excl00.png");
+  position: absolute;
+  top: 40px;
+  right: 50px;
+}
+
+.main .line1 {
+  width: 178px;
+  height: 3px;
+  border-bottom: 3px solid red;
+  -webkit-transform: translateY(-50px) translateX(0px) rotate(15deg);
+  position: absolute;
+  top: 140px;
+  left: -89px;
+}
+
+.main .line2 {
+  width: 134px;
+  height: 3px;
+  border-bottom: 3px solid red;
+  -webkit-transform: translateY(-50px) translateX(0px) rotate(90deg);
+  position: absolute;
+  top: 57px;
+  left: 86px;
+}
+
+.main .line3 {
+  width: 178px;
+  height: 3px;
+  border-bottom: 3px solid red;
+  -webkit-transform: translateY(-50px) translateX(0px) rotate(-15deg);
+  position: absolute;
+  top: 140px;
+  right: -89px;
+}
+
+.main .line1-grey {
+  width: 214px;
+  height: 3px;
+  border-bottom: 3px solid grey;
+  -webkit-transform: translateY(-50px) translateX(0px) rotate(30deg);
+  position: absolute;
+  top: 75px;
+  left: -107px;
+}
+
+.main .line3-grey {
+  width: 214px;
+  height: 3px;
+  border-bottom: 3px solid grey;
+  -webkit-transform: translateY(-50px) translateX(0px) rotate(-30deg);
+  position: absolute;
+  top: 75px;
+  right: -110px;
+}
+
+.main .line1-blue {
+  width: 178px;
+  height: 3px;
+  border-bottom: 3px solid #0e7e99;
+  -webkit-transform: translateY(-50px) translateX(0px) rotate(15deg);
+  position: absolute;
+  top: 140px;
+  left: -89px;
+}
+
+.main .line2-blue {
+  width: 172px;
+  height: 3px;
+  border-bottom: 3px solid #0e7e99;
+  -webkit-transform: translateY(-50px) translateX(0px) rotate(90deg);
+  position: absolute;
+  top: 18px;
+  left: 69px;
+}
+
+.main .line3-blue {
+  width: 178px;
+  height: 3px;
+  border-bottom: 3px solid #0e7e99;
+  -webkit-transform: translateY(-50px) translateX(0px) rotate(-15deg);
+  position: absolute;
+  top: 140px;
+  right: -89px;
+}
+
+.main .priv {
+  height: 70px;
+  width: 70px;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/privacy01.png);
+  position: absolute;
+  top: 20px;
+  left: -30px;
+}
+
+.main .vat {
+  height: 70px;
+  width: 70px;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/vat01.png);
+  position: absolute;
+  top: 100px;
+  left: -30px;
+}
+
+/*********************************************
+* NAVIGATION CONTROLS
+  *********************************************/
+.reveal .controls {
+  color: #e70000;
+}
+
+/*********************************************
+* PROGRESS BAR
+*********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.reveal .progress span {
+  background: #e70000;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+
+.ll .icon {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 30px;
+}
+
+.ll .footer-icon {
+  width: 52px;
+  height: 52px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.ll .code {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/code.png);
+  width: 52px;
+  height: 52px;
+}
+
+.ll .team {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/team.png);
+  width: 52px;
+  height: 52px;
+}
+
+.ll .approach {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/approach.png);
+  width: 52px;
+  height: 52px;
+}
+
+.ll .company {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/company.png);
+  width: 52px;
+  height: 52px;
+}
+
+.ll .red {
+  color: red;
+}
+
+.ll .green {
+  color: green;
+}
+
+.ll .topic {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  text-indent: 160px;
+  margin-left: -100px;
+}

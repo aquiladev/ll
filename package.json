@@ -1,0 +1,27 @@
+{
+  "name": "ll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquiladev/ll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aquiladev/ll/issues"
+  },
+  "homepage": "https://github.com/aquiladev/ll#readme",
+  "dependencies": {
+    "reveal.js": "^3.6.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.5.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  }
+}
